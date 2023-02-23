@@ -1,0 +1,12 @@
+#include<studio.h>
+#include<conio.h>
+Void main ()
+{
+   int a,b,c;
+   Printf("Enter the value of a,b")
+   Scanf("%d%d",&a,&b);
+   c=a;
+   a=b;
+   b=c;
+   Printf ("value of a=%d,&b=%d",a,b);
+}
